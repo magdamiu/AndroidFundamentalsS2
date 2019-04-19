@@ -30,7 +30,7 @@ public class LengthActivity extends AppCompatActivity implements LengthListener{
     private void replaceFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.container_fragment_sum, fragment);
+        fragmentTransaction.replace(R.id.container_fragment_length, fragment);
         fragmentTransaction.commit();
     }
 
